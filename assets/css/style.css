@@ -10,7 +10,7 @@
 }
 
 :root {
-    --bg-color: #fff;
+    --bg-color: #fff; 
     --snd-color: #dff7ff;
     --text-color: #1f1d1d;
     --main-color: #005279;
@@ -934,7 +934,7 @@ circle {
   }
   .container1 {
     padding: 1rem;
-    max-width: 40%;
+    max-width: 45%;
   }
   .sub-title {
     font-size: 1.5rem;

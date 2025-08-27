@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
     font-family: -apple-system, sans-serif;
 }
-
+body, html {
+    overflow-x: hidden; 
+}
 :root {
     --bg-color: #fff; 
     --snd-color: #dff7ff;

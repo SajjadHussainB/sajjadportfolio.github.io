@@ -80,16 +80,16 @@ window.addEventListener("scroll", () => {
     }
   });
 
-//   cards.forEach((card, i) => {
-//     const top = card.getBoundingClientRect().top;
-//     const bottom = card.getBoundingClientRect().bottom;
-//     if (top < window.innerHeight - 100 && bottom > 100) {
-//       setTimeout(() => card.classList.add('show'), i * 150);
-//     } else {
-//       card.classList.remove('show');
-//     }
-//   });
-// });
+  cards.forEach((card, i) => {
+    const top = card.getBoundingClientRect().top;
+    const bottom = card.getBoundingClientRect().bottom;
+    if (top < window.innerHeight - 100 && bottom > 100) {
+      setTimeout(() => card.classList.add('show'), i * 150);
+    } else {
+      card.classList.remove('show');
+    }
+  });
+});
 
 // Skills Animation 
 document.addEventListener("DOMContentLoaded", () => {

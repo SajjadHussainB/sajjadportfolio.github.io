@@ -972,7 +972,7 @@ circle {
   }
   .services-container .service-box {
   flex: 1 1 100%;
-  width: 90%;
+  width: 80%;
   padding: 3rem;
   min-height: 160px;
   opacity: 0;

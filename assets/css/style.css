@@ -1074,17 +1074,3 @@ circle {
         padding: 8px 12px;
     }
 }
-@media (max-width: 480px) {
-  body {
-    font-size: 14px; /* reduce base size */
-    overflow-x: hidden; /* stop sideways scroll/zoom */
-  }
-  .navbar {
-    width: 100%;
-    font-size: 1rem;
-  }
-  .project-card, .service-box {
-    width: 100%; /* take full width */
-    padding: 1.5rem;
-  }
-}

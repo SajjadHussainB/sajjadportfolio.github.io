@@ -294,7 +294,7 @@ span {
 }
 
 .w3-container {
-  background: rgb(127, 197, 202);
+  background: #9fddf1;
   color: #000000;
   font-size: 11px;
   text-align: center;
@@ -359,7 +359,7 @@ circle {
 }
 
 .path {
-    stroke: rgb(127, 197, 202);
+    stroke:  #9fddf1;
     stroke-dasharray: 502px;
     stroke-dashoffset: 502px;
     /* start hidden */
@@ -822,7 +822,7 @@ circle {
     }
 
     .about-img img {
-        width: 70vw;
+        width: 40vw;
         margin-top: 4rem;
     }
 
@@ -908,7 +908,7 @@ circle {
 
     .container1 {
         padding: 1rem;
-        max-width: 50%;
+        max-width: 40%;
     }
 
     .sub-title {
@@ -1023,36 +1023,13 @@ circle {
         font-size: 6rem;
     }
     .project-card h3 {
-        font-size: 2.2rem;
+        font-size: 2.6rem;
+        margin-bottom: 0.5rem;
     }
     .project-card p {
         display: none;
     }
 }
-
-/* Mobile */
-@media (max-width: 480px) {
-    .projects h2 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
-    .projects-container .project-card {
-        min-height: 220px; 
-        padding: 2rem 1.5rem;
-    }
-    .projects i {
-        font-size: 4rem;
-    }
-    .project-card h3 {
-        font-size: 1.8rem;
-    }
-    .project-card a.btn {
-        padding: 0.6rem 1rem;
-        font-size: 1rem;
-    }
-}
-
-
 
 /* Responsive: Mobile */
 @media (max-width: 768px) {
